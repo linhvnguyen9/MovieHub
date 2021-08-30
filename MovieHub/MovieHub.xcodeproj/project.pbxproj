@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12E42B526D9F99F00DF4FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E42B426D9F99F00DF4FED /* AppDelegate.swift */; };
+		A12C821D26DC75B3006409E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C821C26DC75B3006409E5 /* AppDelegate.swift */; };
 		A12E42B726D9F99F00DF4FED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E42B626D9F99F00DF4FED /* SceneDelegate.swift */; };
 		A12E42B926D9F99F00DF4FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E42B826D9F99F00DF4FED /* ViewController.swift */; };
 		A12E42BC26D9F99F00DF4FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12E42BA26D9F99F00DF4FED /* Main.storyboard */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A12C821C26DC75B3006409E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12E42B126D9F99F00DF4FED /* MovieHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12E42B426D9F99F00DF4FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12E42B626D9F99F00DF4FED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A12E42B826D9F99F00DF4FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A12E42BB26D9F99F00DF4FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,6 @@
 		A12E42B326D9F99F00DF4FED /* MovieHub */ = {
 			isa = PBXGroup;
 			children = (
-				A12E42B426D9F99F00DF4FED /* AppDelegate.swift */,
 				A12E42B626D9F99F00DF4FED /* SceneDelegate.swift */,
 				A12E42B826D9F99F00DF4FED /* ViewController.swift */,
 				A12E42BA26D9F99F00DF4FED /* Main.storyboard */,
@@ -69,6 +68,7 @@
 				A12E42C526D9F9AC00DF4FED /* Info.plist */,
 				A12E42BD26D9F99F00DF4FED /* MovieHub.xcdatamodeld */,
 				A140D39B26DC6B1E00DFBA3C /* CoreData.swift */,
+				A12C821C26DC75B3006409E5 /* AppDelegate.swift */,
 			);
 			path = MovieHub;
 			sourceTree = "<group>";
@@ -145,8 +145,8 @@
 			files = (
 				A12E42BF26D9F99F00DF4FED /* MovieHub.xcdatamodeld in Sources */,
 				A12E42B926D9F99F00DF4FED /* ViewController.swift in Sources */,
-				A12E42B526D9F99F00DF4FED /* AppDelegate.swift in Sources */,
 				A12E42B726D9F99F00DF4FED /* SceneDelegate.swift in Sources */,
+				A12C821D26DC75B3006409E5 /* AppDelegate.swift in Sources */,
 				A140D39C26DC6B1E00DFBA3C /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
